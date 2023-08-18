@@ -44,15 +44,15 @@
                 <h1 class="text-center">AdminPanel</h1>
                 <form id="loginForm">
                     <div class="form-group">
-                        <label for="username">username</label>
+                        <label for="username">Bruknavn</label>
                         <input type="text" class="form-control" id="username" name="username" required>
                     </div>
                     <div class="form-group">
-                        <label for="password">password</label>
+                        <label for="password">passord</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="btn btn-primary">login</button>
+                        <button type="submit" class="btn btn-primary">loginn</button>
                     </div>
                 </form>
             </div>
@@ -81,7 +81,7 @@
                 location.href = '/'
             }
             else{
-                alert("Failed To Login")
+                alert("Feil brukenavn eller passord")
             }
         })
     }
